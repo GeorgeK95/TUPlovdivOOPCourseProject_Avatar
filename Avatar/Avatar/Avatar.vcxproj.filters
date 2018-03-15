@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{1a56b647-d5db-4ff8-a5f5-d4cba789f6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{4853ef68-0bd3-4414-9d43-8ea3b6c64176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{f511258f-c011-4abe-8329-4133b56ac71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\run">
+      <UniqueIdentifier>{3f502f31-73cf-41d8-a1f0-aa324e078951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{e3a020f1-e713-481b-89eb-46990d7a891c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{196a5872-322f-4839-b31e-b505b4805221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{a8702638-15c7-407c-aca4-0952b08a67dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{4f71d561-c13d-433f-898e-cb01308e2db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{819bbb1d-7a27-4960-92b6-918e88aaa81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{d4a18479-189b-49c1-90e6-9f4d0fcf55f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{6d54d8de-ffdd-450c-b71c-a5122ae2558b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{11795d17-613b-45e5-93cb-88d52f70518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{2c0fb55b-bd3b-4034-9e64-0c66efb6fd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\factories">
+      <UniqueIdentifier>{453f8ea5-24c3-473d-a12f-ff2f62b116ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\factories">
+      <UniqueIdentifier>{aab83303-0948-40d1-871f-693f0f16ebd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\benders">
+      <UniqueIdentifier>{9e73ef7c-f8ab-449b-ae76-34f298782ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\monuments">
+      <UniqueIdentifier>{70edd123-71bb-42ec-ad9e-35e34d5bd6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\benders">
+      <UniqueIdentifier>{23e2c3b2-9755-4adc-a3ea-fb83951365a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\monuments">
+      <UniqueIdentifier>{45c1f2dd-5cbd-4245-8eb9-7336d04b3026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInputReader.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutputWriter.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputParser.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BenderFactory.h">
+      <Filter>Header Files\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="MonumentFactory.h">
+      <Filter>Header Files\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Bender.h">
+      <Filter>Header Files\models\benders</Filter>
+    </ClInclude>
+    <ClInclude Include="Monument.h">
+      <Filter>Header Files\models\monuments</Filter>
+    </ClInclude>
+    <ClInclude Include="AirBender.h">
+      <Filter>Header Files\models\benders</Filter>
+    </ClInclude>
+    <ClInclude Include="AirMonument.h">
+      <Filter>Header Files\models\monuments</Filter>
+    </ClInclude>
+    <ClInclude Include="IntToStringConverter.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterBender.h">
+      <Filter>Header Files\models\benders</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterMonument.h">
+      <Filter>Header Files\models\monuments</Filter>
+    </ClInclude>
+    <ClInclude Include="FireMonument.h">
+      <Filter>Header Files\models\monuments</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthMonument.h">
+      <Filter>Header Files\models\monuments</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBender.h">
+      <Filter>Header Files\models\benders</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthBender.h">
+      <Filter>Header Files\models\benders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Source Files\run</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInputReader.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutputWriter.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputParser.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BenderFactory.cpp">
+      <Filter>Source Files\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="MonumentFactory.cpp">
+      <Filter>Source Files\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Bender.cpp">
+      <Filter>Source Files\models\benders</Filter>
+    </ClCompile>
+    <ClCompile Include="Monument.cpp">
+      <Filter>Source Files\models\monuments</Filter>
+    </ClCompile>
+    <ClCompile Include="AirMonument.cpp">
+      <Filter>Source Files\models\monuments</Filter>
+    </ClCompile>
+    <ClCompile Include="AirBender.cpp">
+      <Filter>Source Files\models\benders</Filter>
+    </ClCompile>
+    <ClCompile Include="IntToStringConverter.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterBender.cpp">
+      <Filter>Source Files\models\benders</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterMonument.cpp">
+      <Filter>Source Files\models\monuments</Filter>
+    </ClCompile>
+    <ClCompile Include="FireMonument.cpp">
+      <Filter>Source Files\models\monuments</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthMonument.cpp">
+      <Filter>Source Files\models\monuments</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBender.cpp">
+      <Filter>Source Files\models\benders</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthBender.cpp">
+      <Filter>Source Files\models\benders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
